@@ -1,0 +1,44 @@
+package olga.ba;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptException;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class App {
+    public static void main( String[] args ) {
+    	String URL = "http://www.news.de/promis/855737575/kate-middleton-prinz-william-meghan-markle-und-prinz-harry-das-waren-schoensten-momente-der-royals-2018/1/";
+    	System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");       
+    	WebDriver driver = new ChromeDriver();
+        driver.get(URL);
+        String cssPath = ".articleContent > p";
+        WebElement textTag = driver.findElement(By.cssSelector(cssPath));
+        
+        System.out.println("Title: " + driver.getTitle());
+        System.out.println("Total Text:\n" + textTag.getText());
+        driver.close();
+    }
+    
+    private static void handlePopup(WebDriver driver) {
+    	List<WebElement> popup = driver.findElements(By.className(""));
+    }
+    
+    private static void handleAds(WebDriver driver) {
+    	List<WebElement> ads = driver.findElements(By.cssSelector(""));
+    	if(!ads.isEmpty()) {
+    		
+    	}
+    }
+    
+    private static void removeElement(WebDriver driver, WebElement element) {
+    	JavascriptExecutor executor;
+    	if(driver instanceof JavascriptExecutor) {
+    		executor = (JavascriptExecutor) driver;
+    		executor.executeScript("return document.getElementsByClassName('" + element.getAttribute("class") + "').remove();");
+    	}
+    }
+}

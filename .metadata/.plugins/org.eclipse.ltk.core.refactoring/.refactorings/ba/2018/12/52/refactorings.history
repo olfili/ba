@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;div&apos; in &apos;olga.ba.App.main(...)&apos; to &apos;textTag&apos;&#x0D;&#x0A;- Original project: &apos;ba&apos;&#x0D;&#x0A;- Original element: &apos;olga.ba.App.main(String[]).div&apos;&#x0D;&#x0A;- Renamed element: &apos;div&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;div&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;olga.ba{App.java[App~main~\[QString;@div!631!691!642!644!QWebElement;!0!false" name="textTag" references="true" stamp="1546169140293" version="1.0"/>
+</session>
