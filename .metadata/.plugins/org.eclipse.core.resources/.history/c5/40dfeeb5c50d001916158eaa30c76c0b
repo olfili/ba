@@ -1,0 +1,20 @@
+package olga.ba;
+
+import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence;
+import de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpSegmenter;
+import dkpro.toolbox.corpus.CorpusException;
+import dkpro.toolbox.corpus.analyzed.AnalyzedCorpus;
+import dkpro.toolbox.corpus.analyzed.CorpusManager;
+import dkpro.toolbox.corpus.analyzed.CorpusManager.CorpusName;
+
+public class PreliminaryAnalyser {
+	public PreliminaryAnalyser() throws CorpusException {
+		
+				
+	}
+	
+	public void InitializeCorpus(dkpro.toolbox.corpus.analyzed.CorpusManager.CorpusName corpusName) {
+		AnalyzedCorpus corpus = CorpusManager.getCorpus(CorpusName.SenseAndSensibility);
+		OpenNlpSegmenter nlp = new OpenNlpSegmenter();
+	}
+}

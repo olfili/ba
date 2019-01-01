@@ -1,0 +1,85 @@
+package olga.ba;
+
+import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
+import de.tudarmstadt.ukp.dkpro.core.io.text.TextReader;
+import de.tudarmstadt.ukp.dkpro.core.io.text.TokenizedTextWriter;
+import de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpSegmenter;
+import de.tudarmstadt.ukp.dkpro.core.tokit.BreakIteratorSegmenter;
+import dkpro.toolbox.core.NGram;
+import dkpro.toolbox.core.util.NGramIterable;
+
+import org.apache.uima.UIMAException;
+import org.apache.uima.analysis_engine.AnalysisEngineDescription;
+import org.apache.uima.collection.CollectionReaderDescription;
+import org.apache.uima.fit.factory.AnalysisEngineFactory;
+import org.apache.uima.fit.factory.JCasFactory;
+import org.apache.uima.fit.pipeline.SimplePipeline;
+import org.apache.uima.fit.util.JCasUtil;
+import org.apache.uima.jcas.JCas;
+import org.apache.uima.resource.ResourceInitializationException;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Collection;
+import java.util.List;
+
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
+import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
+
+/**
+ * This pipeline demonstrates the usage of {@link TokenizedTextWriter}. It reads the given text
+ * files, segments it (tokens and sentences, and writes all documents to a target file, one
+ * sentence per line, tokens separated by whitespaces.
+ * <p>
+ * The output format can immediately be fed to e.g. Word2Vec.
+ * </p>
+ */
+public class TokenizedWriterPipeline
+{
+    protected static final File TARGET_FILE = new File("target/tokenized.txt");
+    private static final String LANGUAGE = "de";
+    private static final String SOURCE_DIR = "resources/texts/*";
+    
+    
+    
+    private static final boolean SINGULAR_TARGET = true;
+
+    public static void main(String[] args) throws IOException, UIMAException {
+      /*  CollectionReaderDescription reader = createReaderDescription(TextReader.class,
+                TextReader.PARAM_SOURCE_LOCATION, SOURCE_DIR,
+                TextReader.PARAM_LANGUAGE, LANGUAGE);
+        AnalysisEngineDescription segmenter = createEngineDescription(OpenNlpSegmenter.class);
+        
+        AnalysisEngineDescription writer = createEngineDescription(TokenizedTextWriter.class,
+                TokenizedTextWriter.PARAM_TARGET_LOCATION, TARGET_FILE,
+                TokenizedTextWriter.PARAM_SINGULAR_TARGET, SINGULAR_TARGET);
+
+        SimplePipeline.runPipeline(reader, segmenter, writer);
+        */
+       f();
+        
+        
+    }
+    
+    public static void f() throws UIMAException {
+
+		final String sentence = "Mary gives John the apple.";
+		 
+		final JCas jCas = JCasFactory.createJCas();
+		jCas.setDocumentText(sentence);
+		jCas.setDocumentLanguage("en");
+		 
+		final AnalysisEngineDescription breakIteratorSegmenter = 
+		   AnalysisEngineFactory.createPrimitiveDescription(
+		   BreakIteratorSegmenter.class);
+		SimplePipeline.runPipeline(jCas, breakIteratorSegmenter);
+		
+		final Collection<Token> tokens = JCasUtil.select(jCas, Token.class);
+		//final NGramIterable<Token> ngrams = NGramIterable.create(tokens, n);
+		//final Iterator<NGram> ngramIterator = ngrams.iterator();
+		for (Token token : tokens) {
+			System.out.println(token.getLemmaValue());
+		}
+	}
+		    
+}

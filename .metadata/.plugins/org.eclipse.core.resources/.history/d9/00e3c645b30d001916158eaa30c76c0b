@@ -1,0 +1,7 @@
+package olga.ba;
+
+public class PreliminaryAnalyser {
+	public PreliminaryAnalyser() {
+		//AnalyzedCorpus corpus = CorpusManager.getCorpus(CorpusName.SenseAndSensibility);	
+	}
+}

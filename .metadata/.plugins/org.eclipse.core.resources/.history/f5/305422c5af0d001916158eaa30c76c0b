@@ -1,0 +1,70 @@
+package olga.ba;
+
+import java.io.File;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class PageNavigator {
+	
+	private WebDriver driver;
+	
+	public PageNavigator() {
+		System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");   
+    	
+    	ChromeOptions options = new ChromeOptions();
+    	options.addExtensions(new File ("resources/adblock-plus-crx-master/adblock-plus-crx-master/bin/Adblock-Plus_v1.12.4.crx"));
+    	    	
+    	this.driver = new ChromeDriver(options);
+    	
+    	this.driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	}
+	
+	public void navigate(String url) {
+		driver.get(url);
+        handlePopup();
+        handleAds();
+        String cssPath = ".articleContent>.clearfix";
+        WebElement textTag = driver.findElement(By.cssSelector(cssPath));
+        
+        System.out.println("Title: " + driver.getTitle());
+        System.out.println("Total Text:\n" + textTag.getText());
+        driver.close();
+	}
+	
+	private void handlePopup() {
+    	List<WebElement> popups = driver.findElements(By.cssSelector(".cleverpush-confirm"));
+    	for(WebElement popup: popups) {
+    		popup.findElement(By.cssSelector(".cleverpush-confirm-btn-deny")).click();
+    	}
+    }
+    
+    private void handleAds() {
+    	String cssPath = ".ialayerContainer";
+    	By locator = By.cssSelector(cssPath);
+//    	WebDriverWait wait = new WebDriverWait(driver, 30);
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    	List<WebElement> ads = driver.findElements(locator);
+    	for(WebElement ad:ads) {
+    		removeElement(ad);
+    	}
+    }
+    
+    private void removeElement(WebElement element) {
+    	JavascriptExecutor executor;
+    	if(driver instanceof JavascriptExecutor) {
+    		executor = (JavascriptExecutor) driver;
+    		String className = element.getAttribute("class");
+    		executor.executeScript("var els = document.getElementsByClassName('" + className + "');"
+    				+ "for(var i = 0; i < els.length; i++) {"
+    				+ "	els[i].remove(); "
+    				+ "}");
+    	}
+    }
+}

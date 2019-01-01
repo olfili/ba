@@ -1,0 +1,161 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>olga</groupId>
+  <artifactId>ba</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>ba</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <dkpro.core.version>1.10.0</dkpro.core.version>
+  </properties>
+
+
+<dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+      <artifactId>de.tudarmstadt.ukp.dkpro.core-asl</artifactId>
+      <version>${dkpro.core.version}</version>
+      <type>pom</type>
+      <scope>import</scope>
+    </dependency>
+    
+    
+  		<dependency>
+  			<groupId>dkpro.toolbox</groupId>
+  			<artifactId>dkpro.toolbox</artifactId>
+  			<version>0.2.0</version>
+  			<type>pom</type>
+  			<scope>import</scope>
+  		</dependency>
+  	
+    
+  </dependencies>
+</dependencyManagement>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>3.141.59</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-chrome-driver</artifactId>
+	    <version>3.141.59</version>
+	</dependency>
+	
+	<!-- DKPro -->
+	 <dependency>
+	   <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+	   <artifactId>de.tudarmstadt.ukp.dkpro.core.opennlp-asl</artifactId>
+	 </dependency>
+	  
+	<!-- https://mvnrepository.com/artifact/dkpro.toolbox/dkpro.toolbox.corpus-asl -->
+	<dependency>
+  		<groupId>dkpro.toolbox</groupId>
+  		<artifactId>dkpro.toolbox.core-asl</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>dkpro.toolbox</groupId>
+  		<artifactId>dkpro.toolbox.corpus-asl</artifactId>
+  	</dependency>
+    <dependency>
+        <groupId>dkpro.toolbox</groupId>
+        <artifactId>dkpro.toolbox.tools-asl</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>dkpro.toolbox</groupId>
+        <artifactId>dkpro.toolbox.tagger-asl</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>dkpro.toolbox</groupId>
+        <artifactId>dkpro.toolbox.wordnet-asl</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>de.tudarmstadt.ukp.dkpro.statistics</groupId>
+    	<artifactId>de.tudarmstadt.ukp.dkpro.statistics</artifactId>
+    	<version>1.0.0</version>
+    </dependency>
+    <dependency>
+    	<groupId>de.tudarmstadt.ukp.dkpro.tc</groupId>
+    	<artifactId>dkpro-tc-features-ngram</artifactId>
+    	<version>0.6.0</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.eclipse.jetty</groupId>
+    	<artifactId>jetty-client</artifactId>
+    	<version>9.4.12.v20180830</version>
+	</dependency>
+	  
+	
+  </dependencies>
+  <build>
+    <plugins>
+        <plugin>
+            <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+        </plugin>
+    </plugins>
+    <pluginManagement>
+    	<plugins>
+    		<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+    		<plugin>
+    			<groupId>org.eclipse.m2e</groupId>
+    			<artifactId>lifecycle-mapping</artifactId>
+    			<version>1.0.0</version>
+    			<configuration>
+    				<lifecycleMappingMetadata>
+    					<pluginExecutions>
+    						<pluginExecution>
+    							<pluginExecutionFilter>
+    								<groupId>
+    									org.apache.maven.plugins
+    								</groupId>
+    								<artifactId>
+    									maven-dependency-plugin
+    								</artifactId>
+    								<versionRange>[2.1,)</versionRange>
+    								<goals>
+    									<goal>copy-dependencies</goal>
+    								</goals>
+    							</pluginExecutionFilter>
+    							<action>
+    								<ignore></ignore>
+    							</action>
+    						</pluginExecution>
+    					</pluginExecutions>
+    				</lifecycleMappingMetadata>
+    			</configuration>
+    		</plugin>
+    	</plugins>
+    </pluginManagement>
+  </build>
+</project>

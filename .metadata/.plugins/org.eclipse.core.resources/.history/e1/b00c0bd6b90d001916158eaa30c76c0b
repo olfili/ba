@@ -1,0 +1,11 @@
+package olga.ba;
+
+import de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpSegmenter;
+
+public class PreliminaryAnalyser {
+	public PreliminaryAnalyser() {
+		//AnalyzedCorpus corpus = CorpusManager.getCorpus(CorpusName.SenseAndSensibility);	
+		OpenNlpSegmenter nlp = new OpenNlpSegmenter();
+		
+	}
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.JavascriptException"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.JavascriptExecutor"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpSegmenter"/>
+<fullyQualifiedTypeName name="dkpro.toolbox.corpus.analyzed.CorpusManager"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token"/>
+<fullyQualifiedTypeName name="org.apache.uima.fit.util.JCasUtil"/>
+<fullyQualifiedTypeName name="org.apache.uima.jcas.JCas"/>
+<fullyQualifiedTypeName name="org.apache.uima.fit.factory.JCasFactory"/>
+<fullyQualifiedTypeName name="org.apache.uima.fit.factory.AnalysisEngineFactory"/>
+<fullyQualifiedTypeName name="de.tudarmstadt.ukp.dkpro.core.tokit.BreakIteratorSegmenter"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="de.tudarmstadt.ukp.dkpro.core.ngrams.NGramIterable"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="dkpro.toolbox.core.NGram"/>
+<fullyQualifiedTypeName name="dkpro.toolbox.core.util.NGramIterable"/>
+<fullyQualifiedTypeName name="olga.ba.TokenizedWriterPipeline"/>
+<fullyQualifiedTypeName name="dkpro.toolbox.core.Sentence"/>
+<fullyQualifiedTypeName name="java.util.function.BiFunction"/>
+<fullyQualifiedTypeName name="java.util.function.Function"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>
