@@ -20,6 +20,6 @@ public class App {
     public static void main( String[] args ) throws InterruptedException, UIMAException {
     	String URL = "http://www.news.de/promis/855737575/kate-middleton-prinz-william-meghan-markle-und-prinz-harry-das-waren-schoensten-momente-der-royals-2018/1/";
     	PageNavigator navi = new PageNavigator();
-    	 navi.navigate(URL);
+    	navi.navigate(URL);
     }    
 }

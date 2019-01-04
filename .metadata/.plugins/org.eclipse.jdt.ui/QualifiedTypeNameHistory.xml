@@ -25,9 +25,12 @@
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="dkpro.toolbox.core.NGram"/>
 <fullyQualifiedTypeName name="dkpro.toolbox.core.util.NGramIterable"/>
-<fullyQualifiedTypeName name="olga.ba.TokenizedWriterPipeline"/>
 <fullyQualifiedTypeName name="dkpro.toolbox.core.Sentence"/>
 <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
 <fullyQualifiedTypeName name="java.util.function.Function"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="olga.ba.TokenizedWriterPipeline"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="olga.ba.PageNavigator.ElementType"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>
