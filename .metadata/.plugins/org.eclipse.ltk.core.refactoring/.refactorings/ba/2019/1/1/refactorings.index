@@ -1,3 +1,5 @@
 1546338340952	Copy compilation unit
 1546338517901	Copy compilation unit
 1546339133968	Delete elements
+1546718722627	Rename method 'fillIgnoredTagNames'
+1546718866485	Rename field 'tagNamesToIgnore'
