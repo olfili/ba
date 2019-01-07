@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -46,32 +47,52 @@ public class PageNavigator {
 	}
 	
 	private void fillRelevantTags() {
-		relevantTagNames = new ArrayList<String>();
-		relevantTagNames.add("div");
-		relevantTagNames.add("p");
-		relevantTagNames.add("h1");
-		relevantTagNames.add("h2");
-		relevantTagNames.add("h3");
-		relevantTagNames.add("h4");
+		String[] tags = new String[] {"div", "p", "h1", "h2", "h3", "h4"};
+		relevantTagNames = new ArrayList<String>(Arrays.asList(tags));
 	}
 	
-	public String getElementText(WebElement element) {
+	public String getElementTextWithoutLinks(WebElement element) {
+			String script = "var parent = arguments[0];" + 
+					"var child = parent.firstChild;" + 
+					"var ret = '';" + 
+					"while(child) {" + 
+					"    if (child.nodeType === Node.TEXT_NODE && child.textContent.trim().length > 0) {"  
+					+ "      ret += ' ' + child.textContent.trim();"
+					+ "		 console.log('Text Node: ' + ' ' + child.textContent.trim());"
+					+ "	 } "
+//					+ "else if ("
+//							+ "			child.tagName === 'STRONG'"
+//							+ "			|| child.tagName === 'EM'"
+//							+ "			|| child.tagName === 'SPAN') {"
+//							+ "console.log(child.tagName + ' ' + child.innerText);"
+//							+ "	ret += ' ' + child.innerText.trim();"
+//							+ "}" 
+					+ "  child = child.nextSibling;"
+					+ "}" 
+					+ "return ret;";
+			String result = (String)this.executeScript(script, element);
+			return result;
+	}
+	
+	public String getFullElementText(WebElement element) {
 		String script = "var parent = arguments[0];" + 
 				"var child = parent.firstChild;" + 
 				"var ret = '';" + 
 				"while(child) {" + 
-				"    if (child.nodeType === Node.TEXT_NODE "
-				+ "			|| child.tagName === 'A'"
-				+ "			|| child.tagName === 'STRONG'"
-				+ "			|| child.tagName === 'EM'"
-				+ "			|| child.tagName === 'SPAN'"
-				+ ") {"  
-				+ "      ret += child.textContent;"
-				+ "		 console.log(child.tagName + ' ' + child.textContent);"
-				+ "	 }" + 
-				"    child = child.nextSibling;" + 
-				"}" + 
-				"return ret;";
+				"    if (child.nodeType === Node.TEXT_NODE && child.textContent.trim().length > 0) {"  
+				+ "      ret += ' ' + child.textContent.trim();"
+				+ "		 console.log('Text Node: ' + ' ' + child.textContent.trim());"
+				+ "	 } "
+				+ "else if (child.tagName === 'A'"
+						+ "			|| child.tagName === 'STRONG'"
+						+ "			|| child.tagName === 'EM'"
+						+ "			|| child.tagName === 'SPAN') {"
+						+ "console.log(child.tagName + ' ' + child.innerText);"
+						+ "	ret += ' ' + child.innerText.trim();"
+						+ "}" 
+				+ "  child = child.nextSibling;"
+				+ "}" 
+				+ "return ret;";
 		String result = (String)this.executeScript(script, element);
 		return result;
 	}
@@ -92,9 +113,7 @@ public class PageNavigator {
         handleAds();
         String text = this.getText();
         
-        //System.out.println("Found longest text:\n" + text);
         this.write_file(text, "PageText");
-        //System.out.println("Tokens:\n" + TokenizedWriterPipeline.tokenize(text));
         
         driver.close();
 	}
@@ -125,8 +144,6 @@ public class PageNavigator {
     private void handleAds() {
     	String cssPath = ".ialayerContainer";
     	By locator = By.cssSelector(cssPath);
-//    	WebDriverWait wait = new WebDriverWait(driver, 30);
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     	List<WebElement> ads = driver.findElements(locator);
     	for(WebElement ad:ads) {
     		removeElement(ad);
@@ -149,9 +166,14 @@ public class PageNavigator {
 		this.analyseElements();
 		StringBuilder result = new StringBuilder();
 		for(WebElement element: this.textElements) {
-			result.append(this.getElementText(element).trim());
-			//result.append(element.getText());
-			result.append("\n");
+			String text = this.getFullElementText(element).trim();
+			if(text.length() > 0) {
+				result.append(element.getTagName());
+				result.append("\n");
+				result.append(text);
+				//result.append(element.getText());
+				result.append("\n");
+			}
 		}
 		return result.toString();
 	}
@@ -165,9 +187,6 @@ public class PageNavigator {
 		elements = filterElements(elements);
 		for(int i = 1; i < elements.size() - 1; i++) {
 			WebElement prev = elements.get(i-1);
-			if(!this.relevantTagNames.contains(prev.getTagName())) {
-				continue;
-			}
 			WebElement element = elements.get(i);
 			WebElement next = elements.get(i+1);
 			
@@ -188,7 +207,13 @@ public class PageNavigator {
 		for(int i = 0; i < elements.size(); i++) {
 			try {
 				WebElement el = elements.get(i);
-				if(!this.relevantTagNames.contains(el.getTagName())) {
+				if(!this.relevantTagNames.contains(el.getTagName())
+						// mostly the Ads without the A-Tag have the Cursor changed to pointer on the whole container tag
+						|| el.getCssValue("cursor").equals("pointer")
+						// mostly widgets are irrelevant
+						|| el.getAttribute("class").contains("widget")
+						// don't check what you don't see
+						|| el.getCssValue("display").equals("none")) {
 					elements.remove(i);
 					i--;
 				}
@@ -200,20 +225,16 @@ public class PageNavigator {
 		return elements;
 	}
 	
-	// TODO: replace HashMap with an ArrayList, since we don't need the irrelevantInformation at all
-	// 			and the headers are relevant anyway
 	private void analyseElement(WebElement prev, WebElement element, WebElement next) throws UIMAException {
-//			ElementType type = ElementType.IrrelevantInformation;
-			
 			System.out.println("PREV: " + prev.getTagName() + " " + prev.getAttribute("class") + " " + prev.getAttribute("id"));
 			double prevWordCount = this.elementWordCount(prev);
 			System.out.println("PREV WordCount: " + prevWordCount);
-			double prevLinkDensity = this.elementLinkDensity(prev);
+			double prevLinkDensity = this.elementLinkDensity(prev, prevWordCount);
 			System.out.println("PREV LinkDensity: " + prevLinkDensity);
 			
 			double curWordCount = this.elementWordCount(element);
 			System.out.println("CURR WordCount: " + curWordCount);
-			double curLinkDensity = this.elementLinkDensity(element);
+			double curLinkDensity = this.elementLinkDensity(element, curWordCount);
 			System.out.println("CURR LinkDensity: " + curLinkDensity);
 			
 			System.out.println("NEXT: " + next.getTagName() + " " + next.getAttribute("class") + " " + next.getAttribute("id"));
@@ -264,7 +285,7 @@ public class PageNavigator {
 	}
 	
 	public double elementWordCount(WebElement element) throws UIMAException {
-		String text = this.getElementText(element);
+		String text = this.getElementTextWithoutLinks(element);
 		List<String> words = TextTokenizer.tokenize(text);
 		if(text.length()/10 > words.size()) {
 			System.out.println("STRANGE:\n" + text);
@@ -289,30 +310,23 @@ public class PageNavigator {
 		return result.doubleValue();
 	}
 	
-	public double getSubElementCount(WebElement parent) {
-		String script = "var childNodes = arguments[0].childNodes;"
-						+ "return childNodes.length;";
+	public double getSubElementCount(WebElement parent) throws UIMAException {
+		String script = "return arguments[0].childElementCount;";
 		Long result = (Long)this.executeScript(script, parent);
 		System.out.println("Total: " + result);
 		return result.doubleValue();
 	}
 	
-	public double elementLinkDensity(WebElement element) {
+	public double elementLinkDensity(WebElement element, double wordCount) throws UIMAException {
 //		List<WebElement> links = element.findElements(By.tagName("a"));
 		//TODO: check if it works with the cssSelector like this
 //		List<WebElement> allSubElements = element.findElements(By.cssSelector("*"));
 //		return (double)links.size() / allSubElements.size();
 		double linksCount = this.getSubElementCountByTagName(element, "A");
-		double totalSubElements = this.getSubElementCount(element);
+		double totalSubElements = this.getSubElementCount(element) + wordCount;
 		if(linksCount > 0) {
 			return linksCount / totalSubElements;
 		} 
 		return 0;
-	}
-	
-	private enum ElementType {
-		RelevantText,
-		HeaderText,
-		IrrelevantInformation
 	}
 }

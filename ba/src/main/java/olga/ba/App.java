@@ -21,7 +21,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class App {
     public static void main( String[] args ) throws InterruptedException, UIMAException {
-    	String URL = "http://www.news.de/promis/855737575/kate-middleton-prinz-william-meghan-markle-und-prinz-harry-das-waren-schoensten-momente-der-royals-2018/1/";
+    	//String URL = "http://www.news.de/promis/855737575/kate-middleton-prinz-william-meghan-markle-und-prinz-harry-das-waren-schoensten-momente-der-royals-2018/1/";
+    	String URL = "https://www.zeit.de/news/2019-01/07/bundesinnenministerium-kuendigt-cyber-abwehrzentrum-plus-an-190106-99-453548";
     	PageNavigator navi = new PageNavigator();
     	navi.navigate(URL);
     }    

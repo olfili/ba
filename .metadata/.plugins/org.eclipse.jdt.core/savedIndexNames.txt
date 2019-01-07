@@ -78,8 +78,8 @@ INDEX VERSION 1.131+C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\.metadata\.plu
 1845807926.index
 3743503461.index
 3700693300.index
-4019416594.index
 1480055977.index
+4019416594.index
 2393662412.index
 3688233713.index
 4198061139.index
@@ -87,12 +87,12 @@ INDEX VERSION 1.131+C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\.metadata\.plu
 2767639162.index
 2724746972.index
 1394848873.index
-1078810601.index
+1717661024.index
 1639338932.index
 1828565387.index
 4058926107.index
 452575885.index
-1717661024.index
+1078810601.index
 3367417507.index
 2707737922.index
 3103213625.index

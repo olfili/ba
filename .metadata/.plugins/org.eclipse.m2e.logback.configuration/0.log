@@ -2969,3 +2969,328 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact xerces:xerces
 2019-01-06 19:21:22,275 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
 2019-01-06 19:21:22,291 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-01-06 19:21:22,307 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 11:20:18,967 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-01-07 11:54:00,038 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:54:00,038 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 11:54:00,038 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:54:00,038 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 11:54:02,054 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:54:02,054 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 11:54:02,054 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:54:02,054 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 11:54:33,317 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:54:33,317 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 11:54:33,317 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:54:33,317 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 11:55:07,161 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:55:07,161 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 11:55:07,161 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:55:07,177 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 11:55:19,062 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:55:19,062 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 11:55:19,062 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:55:19,062 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 11:56:07,670 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:56:07,686 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 11:56:07,686 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:56:07,701 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 11:56:19,997 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:56:19,997 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 11:56:19,997 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:56:19,997 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 11:58:01,997 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:58:01,997 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 11:58:02,012 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:58:02,028 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 11:58:14,923 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:58:14,923 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 11:58:14,939 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 11:58:14,939 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:00:29,016 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:00:29,016 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:00:29,032 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:00:29,032 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:00:35,707 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:00:35,723 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:00:35,723 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:00:35,723 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:00:41,899 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:00:41,899 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:00:41,914 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:00:41,914 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:00:45,508 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:00:45,508 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:00:45,508 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:00:45,508 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:01:05,480 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:01:05,480 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:01:05,496 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:01:05,496 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:12:50,540 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:12:50,540 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:12:50,540 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:12:50,556 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:12:59,993 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:12:59,993 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:13:00,009 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:13:00,024 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:14:03,213 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:14:03,213 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:14:03,213 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:14:03,213 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:14:25,668 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:14:25,668 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:14:25,683 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:14:25,683 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:14:41,088 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:14:41,088 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:14:41,088 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:14:41,104 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:15:09,578 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:15:09,578 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:15:09,594 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:15:09,594 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:16:39,546 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:16:39,546 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:16:39,561 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:16:39,561 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:17:17,463 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:17:17,479 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:17:17,479 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:17:17,494 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:22:52,057 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:22:52,057 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:22:52,057 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:22:52,073 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:23:05,317 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:23:05,317 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:23:05,333 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:23:05,348 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:24:29,123 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:24:29,123 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:24:29,123 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:24:29,123 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:26:52,195 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:26:52,210 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:26:52,210 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:26:52,226 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:26:55,351 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:26:55,367 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:26:55,367 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:26:55,367 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:28:05,650 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:28:05,666 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:28:05,666 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:28:05,681 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:30:20,753 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:30:20,753 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:30:20,753 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:30:20,768 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:31:40,919 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:31:40,934 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:31:40,934 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:31:40,934 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:31:45,625 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:31:45,625 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:31:45,625 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:31:45,640 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:32:37,624 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:32:37,624 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:32:37,640 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:32:37,640 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:44:33,393 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:44:33,393 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:44:33,393 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:44:33,409 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:44:37,993 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:44:37,993 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:44:38,009 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:44:38,009 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:44:55,465 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:44:55,465 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:44:55,465 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:44:55,480 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:45:41,123 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:45:41,123 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:45:41,139 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:45:41,139 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 12:50:44,638 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:50:44,638 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 12:50:44,638 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 12:50:44,654 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 13:35:09,182 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:35:09,182 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 13:35:09,197 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:35:09,197 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 13:35:53,962 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:35:53,962 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 13:35:53,962 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:35:53,962 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 13:40:36,550 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:40:36,550 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 13:40:36,565 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:40:36,565 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 13:40:44,282 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:40:44,282 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 13:40:44,282 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:40:44,282 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 13:46:53,542 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:46:53,542 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 13:46:53,558 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:46:53,558 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 13:48:41,100 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:48:41,100 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 13:48:41,100 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:48:41,100 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 13:49:09,418 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:49:09,433 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 13:49:09,433 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:49:09,449 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 13:49:16,029 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:49:16,029 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 13:49:16,029 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:49:16,029 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 13:56:02,054 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:56:02,069 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 13:56:02,069 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:56:02,085 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 13:56:38,989 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:56:38,989 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 13:56:38,989 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:56:38,989 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 13:56:48,362 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:56:48,378 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 13:56:48,378 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:56:48,394 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 13:56:58,509 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:56:58,509 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 13:56:58,509 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:56:58,509 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 13:57:20,946 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:57:20,946 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 13:57:20,977 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:57:20,977 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 13:57:32,287 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:57:32,287 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 13:57:32,287 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 13:57:32,287 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:00:38,595 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:00:38,595 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:00:38,611 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:00:38,611 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:00:56,431 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:00:56,431 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:00:56,431 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:00:56,447 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:01:50,681 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:01:50,681 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:01:50,697 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:01:50,697 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:04:02,089 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:04:02,089 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:04:02,089 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:04:02,104 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:04:20,577 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:04:20,577 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:04:20,592 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:04:20,592 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:04:27,717 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:04:27,717 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:04:27,717 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:04:27,732 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:04:34,466 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:04:34,482 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:04:34,482 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:04:34,498 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:04:42,239 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:04:42,239 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:04:42,239 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:04:42,254 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:05:44,578 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:05:44,594 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:05:44,594 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:05:44,594 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:06:00,551 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:06:00,551 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:06:00,551 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:06:00,551 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:06:09,353 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:06:09,353 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:06:09,369 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:06:09,369 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:06:29,839 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:06:29,839 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:06:29,854 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:06:29,870 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:06:52,274 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:06:52,289 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:06:52,289 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:06:52,305 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:06:54,899 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:06:54,899 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:06:54,899 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:06:54,914 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:07:17,442 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:07:17,442 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:07:17,458 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:07:17,458 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:18:33,188 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:18:33,188 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:18:33,188 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:18:33,188 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:18:45,026 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:18:45,042 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:18:45,042 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:18:45,042 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:18:51,250 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:18:51,250 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:18:51,250 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:18:51,266 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:18:57,502 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:18:57,518 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:18:57,518 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:18:57,518 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:19:01,789 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:19:01,789 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:19:01,789 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:19:01,804 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:38:05,715 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:38:05,715 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:38:05,730 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:38:05,746 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:39:39,949 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:39:39,949 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:39:39,949 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:39:39,964 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:40:47,864 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:40:47,864 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:40:47,880 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:40:47,880 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:56:25,923 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:56:25,923 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:56:25,931 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:56:25,955 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 14:57:24,225 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:57:24,241 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 14:57:24,249 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 14:57:24,253 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 15:05:26,107 [Worker-84: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 15:05:26,107 [Worker-84: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 15:05:26,107 [Worker-84: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 15:05:26,123 [Worker-84: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 15:18:13,747 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 15:18:13,753 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 15:18:13,759 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 15:18:13,765 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 15:23:20,504 [Worker-95: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 15:23:20,504 [Worker-95: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 15:23:20,505 [Worker-95: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 15:23:20,511 [Worker-95: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 15:30:38,248 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 15:30:38,248 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 15:30:38,259 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 15:30:38,270 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
+2019-01-07 15:31:22,771 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 15:31:22,771 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\main\resources
+2019-01-07 15:31:22,772 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-07 15:31:22,778 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Olga\Desktop\Bachelorarbeit\prototyp\ba\src\test\resources
