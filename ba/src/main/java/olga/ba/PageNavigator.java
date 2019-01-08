@@ -26,8 +26,6 @@ public class PageNavigator {
 	
 	private ArrayList<String> relevantTagNames;
 	
-	//private HashMap<WebElement, ElementType> markedElements;
-	
 	private ArrayList<WebElement> textElements;
 	
 	public PageNavigator() {
@@ -40,7 +38,6 @@ public class PageNavigator {
     	
     	this.driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     	
-//    	this.markedElements = new HashMap<WebElement, PageNavigator.ElementType>();
     	this.textElements = new ArrayList<WebElement>();
     	
     	this.fillRelevantTags();
@@ -142,23 +139,25 @@ public class PageNavigator {
     }
     
     private void handleAds() {
-    	String cssPath = ".ialayerContainer";
-    	By locator = By.cssSelector(cssPath);
-    	List<WebElement> ads = driver.findElements(locator);
-    	for(WebElement ad:ads) {
-    		removeElement(ad);
+    	String[] adClasses = new String[] {"ialayerContainer", "ad-container"}; //AdBlock Plus should actually remove those, but it doesn't for some reason
+    	for(String adClass: adClasses) {
+    		this.removeElementsByClassName(adClass);
     	}
+    }
+    
+    private void removeElementsByClassName(String className) {
+    	this.executeScript("var els = document.getElementsByClassName(arguments[0]);"
+    			+ "for(var i = 0; i < els.length; i++) {"
+				+ "	els[i].remove(); "
+				+ "}", className);
     }
     
     private void removeElement(WebElement element) {
     	JavascriptExecutor executor;
     	if(driver instanceof JavascriptExecutor) {
     		executor = (JavascriptExecutor) driver;
-    		String className = element.getAttribute("class");
-    		executor.executeScript("var els = document.getElementsByClassName('" + className + "');"
-    				+ "for(var i = 0; i < els.length; i++) {"
-    				+ "	els[i].remove(); "
-    				+ "}");
+    		executor.executeScript("var el = arguments[0];"
+    				+ "el.remove();", element);
     	}
     }
 
@@ -179,7 +178,6 @@ public class PageNavigator {
 	}
 	
 	private void analyseElements() throws UIMAException {
-//		 this.markedElements = new HashMap<WebElement, ElementType>();
 		this.textElements = new ArrayList<WebElement>();
 		// Check Elements with the following TagNames: div, p, h1, h2, h3, h4, text 
 		// <a ...> is a part of text

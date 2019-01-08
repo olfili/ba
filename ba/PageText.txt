@@ -20,11 +20,3 @@ Diese Meldung ist Teil des automatisierten Nachrichten-Feeds der Deutschen Press
                  Die dpa ist eine Nachrichtenagentur, die Medien mit selbst recherchierten und formulierten Meldungen zu aktuellen Ereignissen beliefert.
 h3
 Seitennavigation
-div
-Wenn Sie keine nutzungsbasierten Werbeeinblendungen mehr erhalten wollen, können Sie diese gemäß der OBA Richtlinien deaktivieren. Mehr über die Kampagnen in dieser Anzeige:
-div
-Alle Kampagnen werden von Ligatus bereitgestellt. Opt out für nutzungsbasierter Werbung
-div
-If you as a publisher have any complaints about one of the ad creatives, please visit the following link to receive detailed information about the advertiser.
-div
-Campaign no. 4 Tipp zum schlanken Bauch Campaign no. 5 NEVER STOP DISCOVERING
